@@ -1,6 +1,5 @@
-# Invisible-cities
+# Invisible Cities
 
-//
 
-- setup ok;
-- hero...
+- setup ok; (favicon)
+- hero, section...

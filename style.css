@@ -6,6 +6,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 html {
   font-size: 62.5%;
 }
@@ -16,19 +17,41 @@ body {
   font-size: 16px;
 }
 
+/* useful stuff */
+strong {
+  font-weight: 700;
+  color: #1a1c23;
+}
+
+a {
+  color: #1a1c23;
+  text-decoration: underline;
+}
+
+blockquote {
+  font-size: 20px;
+}
+
 section {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+/* hero */
 section.hero {
-  /* style */
+  /* ... */
   border: 2px solid blue;
 }
 
 .hero--title {
-  margin-top: 16px;
-  border: 1px solid red;
+  position: fixed;
+  top: 16px;
+  margin: auto;
+  border: 1px dashed #ccc;
 }
 
 .hero--title h1 {
@@ -41,3 +64,19 @@ section.hero {
   text-align: center;
   text-shadow: 0 4px 48px rgba(0, 0, 0, 0.24);
 }
+
+/* about */
+section.about > p {
+  width: 64%;
+}
+
+/* city */
+section.city > p {
+  width: 56%;
+}
+
+/* quote */
+
+/* footer */
+
+/* FIN */
