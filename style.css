@@ -6,8 +6,38 @@
   font-weight: 400;
   font-style: normal;
 }
+html {
+  font-size: 62.5%;
+}
 
 body {
   background: #f1f2ed;
   color: #272725;
+  font-size: 16px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+section.hero {
+  /* style */
+  border: 2px solid blue;
+}
+
+.hero--title {
+  margin-top: 16px;
+  border: 1px solid red;
+}
+
+.hero--title h1 {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 8rem;
+  letter-spacing: 8px;
+  text-align: center;
+  text-shadow: 0 4px 48px rgba(0, 0, 0, 0.24);
 }
