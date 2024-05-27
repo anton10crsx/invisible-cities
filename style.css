@@ -95,16 +95,20 @@ section.footer {
 
 /* media-queries */
 @media screen and (max-width: 768px) {
-  body {
-    border-top: 2px solid blue;
-  }
-
   #drawingCanvas {
     display: none;
   }
 
+  section.about > p {
+    width: 80%;
+  }
+
+  section.city > p {
+    width: 80%;
+  }
+
   blockquote {
-    width: 64%;
+    width: 88%;
     font-size: 16px;
   }
 
