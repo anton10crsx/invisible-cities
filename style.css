@@ -5,6 +5,7 @@
   font-family: "Lekton", monospace;
   font-weight: 400;
   font-style: normal;
+  line-height: 1.5;
 }
 
 html {
@@ -30,6 +31,11 @@ a {
 
 blockquote {
   font-size: 20px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
 }
 
 section {
@@ -51,7 +57,7 @@ section.hero {
   position: fixed;
   top: 16px;
   margin: auto;
-  border: 1px dashed #ccc;
+  /* border: 1px dashed #ccc; */
 }
 
 .hero--title h1 {
@@ -83,5 +89,37 @@ section.city > p {
 /* quote */
 
 /* footer */
+section.footer {
+  text-align: center;
+}
+
+/* media-queries */
+@media screen and (max-width: 768px) {
+  body {
+    border-top: 2px solid blue;
+  }
+
+  #drawingCanvas {
+    display: none;
+  }
+
+  blockquote {
+    width: 64%;
+    font-size: 16px;
+  }
+
+  section.hero {
+    background: url("./img/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero--title h1 {
+    font-size: 4rem;
+    letter-spacing: 4px;
+    text-shadow: 0 4px 48px rgba(0, 0, 0, 0.24);
+  }
+}
 
 /* FIN */

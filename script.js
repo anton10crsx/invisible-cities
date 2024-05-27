@@ -18,7 +18,7 @@ let paintbrush = rectangle;
 const context = canvas.getContext("2d");
 
 const handleMouseMove = (event) => {
-  // console.log("Function:)");
+  // console.log("Function!");
   // console.log(event);
   const left = event.clientX;
   const top = event.clientY;
