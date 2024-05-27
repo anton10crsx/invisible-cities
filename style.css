@@ -44,7 +44,7 @@ section {
 /* hero */
 section.hero {
   /* ... */
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .hero--title {
@@ -63,6 +63,11 @@ section.hero {
   letter-spacing: 8px;
   text-align: center;
   text-shadow: 0 4px 48px rgba(0, 0, 0, 0.24);
+}
+
+/* canvas */
+#drawingCanvas {
+  /* border: 4px solid blue; */
 }
 
 /* about */

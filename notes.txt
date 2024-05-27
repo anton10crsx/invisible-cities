@@ -3,3 +3,6 @@
 
 - setup ok; (favicon)
 - hero, section...
+- pic
+- canvas
+- js+
