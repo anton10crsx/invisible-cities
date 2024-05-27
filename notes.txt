@@ -1,1 +1,5 @@
 # Invisible Cities
+
+An exercise in html css & js.
+A small, simple and imperfect 
+tribute to Italo Calvino, Invisible Cities.
